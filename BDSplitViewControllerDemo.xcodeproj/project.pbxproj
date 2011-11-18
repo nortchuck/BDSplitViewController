@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E362A5B21476B45F0012ABD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E362A5B11476B45F0012ABD7 /* UIKit.framework */; };
+		E362A5B41476B45F0012ABD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E362A5B31476B45F0012ABD7 /* Foundation.framework */; };
+		E362A5B61476B45F0012ABD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E362A5B51476B45F0012ABD7 /* CoreGraphics.framework */; };
+		E362A5BC1476B4600012ABD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E362A5BA1476B4600012ABD7 /* InfoPlist.strings */; };
+		E362A5BE1476B4600012ABD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E362A5BD1476B4600012ABD7 /* main.m */; };
+		E362A5C21476B4600012ABD7 /* BDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E362A5C11476B4600012ABD7 /* BDAppDelegate.m */; };
+		E362A5C51476B4600012ABD7 /* BDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E362A5C41476B4600012ABD7 /* BDMasterViewController.m */; };
+		E362A5C81476B4600012ABD7 /* BDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E362A5C71476B4600012ABD7 /* BDDetailViewController.m */; };
+		E362A5CB1476B4600012ABD7 /* BDMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E362A5C91476B4600012ABD7 /* BDMasterViewController.xib */; };
+		E362A5CE1476B4600012ABD7 /* BDDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E362A5CC1476B4600012ABD7 /* BDDetailViewController.xib */; };
+		E362A5D71476B4780012ABD7 /* BDSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E362A5D61476B4780012ABD7 /* BDSplitViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E362A5AD1476B45F0012ABD7 /* BDSplitViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDSplitViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E362A5B11476B45F0012ABD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E362A5B31476B45F0012ABD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E362A5B51476B45F0012ABD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E362A5B91476B45F0012ABD7 /* BDSplitViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDSplitViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		E362A5BB1476B4600012ABD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E362A5BD1476B4600012ABD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E362A5BF1476B4600012ABD7 /* BDSplitViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDSplitViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E362A5C01476B4600012ABD7 /* BDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDAppDelegate.h; sourceTree = "<group>"; };
+		E362A5C11476B4600012ABD7 /* BDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAppDelegate.m; sourceTree = "<group>"; };
+		E362A5C31476B4600012ABD7 /* BDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDMasterViewController.h; sourceTree = "<group>"; };
+		E362A5C41476B4600012ABD7 /* BDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDMasterViewController.m; sourceTree = "<group>"; };
+		E362A5C61476B4600012ABD7 /* BDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDetailViewController.h; sourceTree = "<group>"; };
+		E362A5C71476B4600012ABD7 /* BDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDetailViewController.m; sourceTree = "<group>"; };
+		E362A5CA1476B4600012ABD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BDMasterViewController.xib; sourceTree = "<group>"; };
+		E362A5CD1476B4600012ABD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BDDetailViewController.xib; sourceTree = "<group>"; };
+		E362A5D51476B4780012ABD7 /* BDSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSplitViewController.h; sourceTree = "<group>"; };
+		E362A5D61476B4780012ABD7 /* BDSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDSplitViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E362A5AA1476B45F0012ABD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E362A5B21476B45F0012ABD7 /* UIKit.framework in Frameworks */,
+				E362A5B41476B45F0012ABD7 /* Foundation.framework in Frameworks */,
+				E362A5B61476B45F0012ABD7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E362A5A21476B45F0012ABD7 = {
+			isa = PBXGroup;
+			children = (
+				E362A5D41476B4780012ABD7 /* BDSplitViewController */,
+				E362A5B71476B45F0012ABD7 /* BDSplitViewControllerDemo */,
+				E362A5B01476B45F0012ABD7 /* Frameworks */,
+				E362A5AE1476B45F0012ABD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E362A5AE1476B45F0012ABD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E362A5AD1476B45F0012ABD7 /* BDSplitViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E362A5B01476B45F0012ABD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E362A5B11476B45F0012ABD7 /* UIKit.framework */,
+				E362A5B31476B45F0012ABD7 /* Foundation.framework */,
+				E362A5B51476B45F0012ABD7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E362A5B71476B45F0012ABD7 /* BDSplitViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E362A5C01476B4600012ABD7 /* BDAppDelegate.h */,
+				E362A5C11476B4600012ABD7 /* BDAppDelegate.m */,
+				E362A5C31476B4600012ABD7 /* BDMasterViewController.h */,
+				E362A5C41476B4600012ABD7 /* BDMasterViewController.m */,
+				E362A5C61476B4600012ABD7 /* BDDetailViewController.h */,
+				E362A5C71476B4600012ABD7 /* BDDetailViewController.m */,
+				E362A5C91476B4600012ABD7 /* BDMasterViewController.xib */,
+				E362A5CC1476B4600012ABD7 /* BDDetailViewController.xib */,
+				E362A5B81476B45F0012ABD7 /* Supporting Files */,
+			);
+			path = BDSplitViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		E362A5B81476B45F0012ABD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E362A5B91476B45F0012ABD7 /* BDSplitViewControllerDemo-Info.plist */,
+				E362A5BA1476B4600012ABD7 /* InfoPlist.strings */,
+				E362A5BD1476B4600012ABD7 /* main.m */,
+				E362A5BF1476B4600012ABD7 /* BDSplitViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E362A5D41476B4780012ABD7 /* BDSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E362A5D51476B4780012ABD7 /* BDSplitViewController.h */,
+				E362A5D61476B4780012ABD7 /* BDSplitViewController.m */,
+			);
+			path = BDSplitViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E362A5AC1476B45F0012ABD7 /* BDSplitViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E362A5D11476B4600012ABD7 /* Build configuration list for PBXNativeTarget "BDSplitViewControllerDemo" */;
+			buildPhases = (
+				E362A5A91476B45F0012ABD7 /* Sources */,
+				E362A5AA1476B45F0012ABD7 /* Frameworks */,
+				E362A5AB1476B45F0012ABD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDSplitViewControllerDemo;
+			productName = BDSplitViewControllerDemo;
+			productReference = E362A5AD1476B45F0012ABD7 /* BDSplitViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E362A5A41476B45F0012ABD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Great American Insurance";
+			};
+			buildConfigurationList = E362A5A71476B45F0012ABD7 /* Build configuration list for PBXProject "BDSplitViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E362A5A21476B45F0012ABD7;
+			productRefGroup = E362A5AE1476B45F0012ABD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E362A5AC1476B45F0012ABD7 /* BDSplitViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E362A5AB1476B45F0012ABD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E362A5BC1476B4600012ABD7 /* InfoPlist.strings in Resources */,
+				E362A5CB1476B4600012ABD7 /* BDMasterViewController.xib in Resources */,
+				E362A5CE1476B4600012ABD7 /* BDDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E362A5A91476B45F0012ABD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E362A5BE1476B4600012ABD7 /* main.m in Sources */,
+				E362A5C21476B4600012ABD7 /* BDAppDelegate.m in Sources */,
+				E362A5C51476B4600012ABD7 /* BDMasterViewController.m in Sources */,
+				E362A5C81476B4600012ABD7 /* BDDetailViewController.m in Sources */,
+				E362A5D71476B4780012ABD7 /* BDSplitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E362A5BA1476B4600012ABD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E362A5BB1476B4600012ABD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E362A5C91476B4600012ABD7 /* BDMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E362A5CA1476B4600012ABD7 /* en */,
+			);
+			name = BDMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		E362A5CC1476B4600012ABD7 /* BDDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E362A5CD1476B4600012ABD7 /* en */,
+			);
+			name = BDDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E362A5CF1476B4600012ABD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E362A5D01476B4600012ABD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E362A5D21476B4600012ABD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDSplitViewControllerDemo/BDSplitViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "BDSplitViewControllerDemo/BDSplitViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E362A5D31476B4600012ABD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDSplitViewControllerDemo/BDSplitViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "BDSplitViewControllerDemo/BDSplitViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E362A5A71476B45F0012ABD7 /* Build configuration list for PBXProject "BDSplitViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E362A5CF1476B4600012ABD7 /* Debug */,
+				E362A5D01476B4600012ABD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E362A5D11476B4600012ABD7 /* Build configuration list for PBXNativeTarget "BDSplitViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E362A5D21476B4600012ABD7 /* Debug */,
+				E362A5D31476B4600012ABD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E362A5A41476B45F0012ABD7 /* Project object */;
+}
